@@ -30,9 +30,9 @@ echo "~ Here are the totals to send/give ~"
 echo ""
 for (ppl, money) in sold.pairs:
   if money >= 0:
-    echo fmt"{ppl:<6} should get {money:>7.2f}"
+    echo fmt"{ppl:<6} should give {money:>7.2f}"
   else:
-    echo fmt"{ppl:<6} should give {abs(money):>6.2f}"
+    echo fmt"{ppl:<6} should get {abs(money):>6.2f}"
 echo ""
 echo "~ Here is the repartition ~"
 echo ""
