@@ -1,0 +1,2 @@
+# TricountNim
+Tricount in Nim
