@@ -26,6 +26,8 @@ for line in file.lines:
 for ppl in get.keys:
   sold[ppl] = get.getOrDefault(ppl) - give.getOrDefault(ppl)
 
+# show the sold, if negative means you have to get money
+# otherwise means you should give money to others
 echo "~ Here are the totals to send/give ~"
 echo ""
 for (ppl, money) in sold.pairs:
@@ -37,6 +39,7 @@ echo ""
 echo "~ Here is the repartition ~"
 echo ""
 
+# process and show who should pay who
 while smallest(sold).val != 0:
   var
     higher = largest(sold)
