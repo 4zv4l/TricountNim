@@ -1,0 +1,4 @@
+Wine Jhon paye 50 a Carol david Jhon
+Beer Jhon paye 150 a Jane Carol david Jhon
+Sausage Carol paye 14 a Jane
+Fuel Carol paye 66 a Jane Carol Jhon
